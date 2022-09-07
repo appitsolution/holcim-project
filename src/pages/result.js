@@ -1,13 +1,16 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../images/logo2.png";
-import itemImg from "../images/item1.jpg";
+import itemImg1 from "../images/item1.jpg";
 import itemImg2 from "../images/item2.png";
 import itemImg3 from "../images/item3.png";
 import "./result.css";
 
 const Result = () => {
+  const [data, setData] = useState([]);
+  const [images, setImages] = useState([itemImg1, itemImg2, itemImg3]);
   useEffect(() => {
     console.dir(JSON.parse(localStorage.getItem("points")));
+    setData(JSON.parse(localStorage.getItem("points")));
   }, []);
   return (
     <>
@@ -28,27 +31,19 @@ const Result = () => {
             </div>
             <div className="result-content">
               <ul className="result-list">
-                <li className="result-item">
-                  <h2 className="result-item-head">Value add upselling</h2>
-                  <img className="result-item-img" src={itemImg} alt="img" />
-                  <a className="result-item-link" href="s">
-                    Learn more
-                  </a>
-                </li>
-                <li className="result-item">
-                  <h2 className="result-item-head">Value add upselling</h2>
-                  <img className="result-item-img" src={itemImg2} alt="img" />
-                  <a className="result-item-link" href="s">
-                    Learn more
-                  </a>
-                </li>
-                <li className="result-item">
-                  <h2 className="result-item-head">Value add upselling</h2>
-                  <img className="result-item-img" src={itemImg3} alt="img" />
-                  <a className="result-item-link" href="s">
-                    Learn more
-                  </a>
-                </li>
+                {data.map((num, index) => (
+                  <li className="result-item">
+                    <h2 className="result-item-head">{num.name}</h2>
+                    <img
+                      className="result-item-img"
+                      src={images[index]}
+                      alt="img"
+                    />
+                    <a className="result-item-link" href="s">
+                      Learn more
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

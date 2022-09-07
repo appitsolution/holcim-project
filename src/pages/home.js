@@ -10,15 +10,7 @@ const Home = () => {
       value: 1,
     },
     {
-      name: "Customer Experience",
-      value: 1,
-    },
-    {
       name: "Cost Down",
-      value: 1,
-    },
-    {
-      name: "Employee Experience",
       value: 1,
     },
     {
@@ -26,11 +18,19 @@ const Home = () => {
       value: 1,
     },
     {
-      name: "New Customer Groups",
+      name: "Sustainability",
       value: 1,
     },
     {
-      name: "Sustainability",
+      name: "Customer Experience",
+      value: 1,
+    },
+    {
+      name: "Employee Experience",
+      value: 1,
+    },
+    {
+      name: "New Customer Groups",
       value: 1,
     },
   ]);
