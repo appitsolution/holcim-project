@@ -53,26 +53,82 @@ const Result = () => {
         <div className="container">
           <div className="footer-block">
             <ul className="footer-list">
-              <li className="footer-item">Inspection Workflow Platform</li>
-              <li className="footer-item">Carbonated recycled CDW</li>
-              <li className="footer-item">Value add upselling</li>
-              <li className="footer-item">Statistical demand forecasting</li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Inspection Workflow Platform
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Carbonated recycled CDW
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Value add upselling
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Statistical demand forecasting
+                </a>
+              </li>
             </ul>
             <ul className="footer-list">
-              <li className="footer-item">Employee engagement</li>
-              <li className="footer-item">Integrated hauling platform</li>
-              <li className="footer-item">Cement quality prediction</li>
-              <li className="footer-item">Wait-time bot</li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Employee engagement
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Integrated hauling platform
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Cement quality prediction
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Wait-time bot
+                </a>
+              </li>
             </ul>
             <ul className="footer-list">
-              <li className="footer-item">Field level risk assessment</li>
-              <li className="footer-item">Jobsite management</li>
-              <li className="footer-item">Automated inventory mgmt</li>
-              <li className="footer-item">Logistics eProcurement</li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Field level risk assessment
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Jobsite management
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Automated inventory mgmt
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Logistics eProcurement
+                </a>
+              </li>
             </ul>
             <ul className="footer-list">
-              <li className="footer-item">Factorization of concrete</li>
-              <li className="footer-item">Affordable housing platform</li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Factorization of concrete
+                </a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-item-link" href="#">
+                  Affordable housing platform
+                </a>
+              </li>
             </ul>
           </div>
         </div>
