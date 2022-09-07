@@ -99,12 +99,32 @@
   border-radius: 1.85541px;
 }
 /* ползунок */
-.content-logic-input::-webkit-slider-thumb,
-.content-logic-input::-moz-range-thumb {
-  background: #94c12e;
+.content-logic-input::-ms-thumb {
+  background: #94c12e !important;
+  color: #94c12e !important;
   width: 14px;
   height: 14px;
   border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+.content-logic-input::-moz-range-thumb {
+  background: #94c12e !important;
+  color: #94c12e !important;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+.content-logic-input::-webkit-slider-thumb {
+  background: #94c12e !important;
+  color: #94c12e !important;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .content-logic-input-list {
