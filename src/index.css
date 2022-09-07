@@ -1,0 +1,21 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+button,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+}
