@@ -19,3 +19,7 @@ a {
   max-width: 920px;
   margin: 0 auto;
 }
+body::-webkit-scrollbar {
+  /* opacity: 0; */
+  display: none;
+}

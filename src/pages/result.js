@@ -10,10 +10,27 @@ const Result = () => {
   const [images, setImages] = useState([itemImg1, itemImg2, itemImg3]);
   useEffect(() => {
     console.dir(JSON.parse(localStorage.getItem("points")));
-    setData(JSON.parse(localStorage.getItem("points")));
+    const res = JSON.parse(localStorage.getItem("points"));
+    const total = res.map((num) => {
+      if (num.name === "SDF") {
+        return {
+          name: "Statistical demand forecasting",
+          result: num.result,
+        };
+      } else if (num.name === "FLRA") {
+        return {
+          name: "Field level risk assessment",
+          result: num.result,
+        };
+      } else {
+        return num;
+      }
+    });
+    setData(total);
   }, []);
   return (
     <>
+      <h1 class="error">Pleate rotate the screen</h1>
       <header className="header header2">
         <div className="container">
           <div className="header-content">

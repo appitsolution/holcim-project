@@ -216,6 +216,7 @@ const Home = () => {
   };
   return (
     <>
+      <h1 class="error">Pleate rotate the screen</h1>
       <header className="header">
         <div className="container">
           <div className="header-content">
