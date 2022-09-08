@@ -15,9 +15,17 @@ a {
   background: none;
   border: none;
 }
+
 .container {
   max-width: 920px;
   margin: 0 auto;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 335px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
 body::-webkit-scrollbar {
   /* opacity: 0; */

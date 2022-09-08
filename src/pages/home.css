@@ -1,24 +1,190 @@
-.content,
-.header {
-  display: none;
-}
-.error {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Arial";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 29px;
-  text-align: center;
+/* mobile */
+@media screen and (max-width: 480px) {
+  .header-content {
+    display: none;
+  }
+  .header-title {
+    display: none;
+  }
+  .content-img {
+    display: none;
+  }
+  .header {
+    display: block;
+    background: #ffffff;
+    padding: 0;
+    border-bottom: 1px solid rgba(190, 185, 180, 0.5);
+  }
+  .header-content-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-content-mobile-logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .header-content-mobile-image {
+    width: 100%;
+  }
+  .header-content-mobile-img {
+    width: 100%;
+  }
+  .header-content-mobile-text {
+    padding: 22px 0;
+  }
+  .header-content-mobile-desc {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
 
-  color: #94c12e;
+    color: #94c12e;
+  }
+  .content {
+    display: block;
+    padding: 57px 0;
+    background: #ffffff;
+  }
+  .content-block {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .content-logic-title {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: linear-gradient(
+      90deg,
+      #94c12e 0.41%,
+      #37b6aa 31.16%,
+      #04bbf1 67.64%,
+      #1d4370 100.47%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 34px;
+  }
+  .content-logic-form {
+    box-sizing: border-box;
+  }
+  .content-logic-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 46px;
+  }
+  .content-logic-item {
+    display: flex;
+    flex-direction: column;
+    width: 241px;
+  }
+  .content-logic-item:nth-child(odd) {
+    margin-right: 0px;
+  }
+  .content-logic-item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .content-logic-text {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1d4370;
+    margin-bottom: 15px;
+  }
+  .content-logic-input {
+    appearance: none;
+    -webkit-appearance: none;
+    color: transparent;
+    background: #94c12e;
+    border-radius: 1.85541px;
+    height: 3.5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  /* линия */
+  .content-logic-input::-webkit-slider-runnable-track,
+  .content-logic-input::-moz-range-track {
+    background: #94c12e;
+    border-radius: 1.85541px;
+  }
+  /* ползунок */
+  .content-logic-input::-ms-thumb {
+    background: #94c12e !important;
+    color: #94c12e !important;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  .content-logic-input::-moz-range-thumb {
+    background: #94c12e !important;
+    color: #94c12e !important;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  .content-logic-input::-webkit-slider-thumb {
+    background: #94c12e !important;
+    color: #94c12e !important;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+
+  .content-logic-input-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content-logic-input-item {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #94c12e;
+  }
+
+  .content-logic-button {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 28.5px;
+    background: #1d4370;
+    border-radius: 2.76774px;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto;
+  }
 }
-@media screen and (min-width: 500px) {
-  .error {
+@media screen and (min-width: 481px) {
+  .header-content-mobile {
     display: none;
   }
   .header {

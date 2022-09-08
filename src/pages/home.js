@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./home.css";
 import logo from "../images/Logo_Holcim.png";
 import contentImg from "../images/content-image.jpg";
+import contentMob from "../images/content-mobile.jpg";
 const Home = () => {
   const [intp1, setInpt1] = useState({
     name: "Revenue Up",
@@ -216,12 +217,30 @@ const Home = () => {
   };
   return (
     <>
-      <h1 class="error">Pleate rotate the screen</h1>
       <header className="header">
         <div className="container">
           <div className="header-content">
             <img className="header-logo" src={logo} alt="logo" />
             <p className="header-title">Digital Impact Now!</p>
+          </div>
+        </div>
+        <div className="header-content-mobile">
+          <div className="header-content-mobile-logo">
+            <img
+              className="header-content-mobile-logo-img"
+              src={logo}
+              alt="logo"
+            />
+          </div>
+          <div className="header-content-mobile-image">
+            <img
+              className="header-content-mobile-img"
+              src={contentMob}
+              alt="content-img"
+            />
+          </div>
+          <div className="header-content-mobile-text">
+            <p className="header-content-mobile-desc">Digital Impact Now!</p>
           </div>
         </div>
       </header>
