@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo2.png";
-import itemImg1 from "../images/item1.jpg";
-import itemImg2 from "../images/item2.png";
-import itemImg3 from "../images/item3.png";
 import "./result.css";
 
 const Result = () => {
   const [data, setData] = useState([]);
-  const [images] = useState([itemImg1, itemImg2, itemImg3]);
   useEffect(() => {
     const res = JSON.parse(localStorage.getItem("points"));
     const total = res.map((num) => {
@@ -17,12 +13,14 @@ const Result = () => {
           name: "Statistical demand forecasting",
           result: num.result,
           link: num.link,
+          url: num.url,
         };
       } else if (num.name === "FLRA") {
         return {
           name: "Field level risk assessment",
           result: num.result,
           link: num.link,
+          url: num.url,
         };
       } else {
         return num;
@@ -32,6 +30,7 @@ const Result = () => {
   }, []);
   return (
     <>
+      <h1 className="error">Please rotate the screen</h1>
       <header className="header2">
         <div className="container">
           <div className="header-content-result">
@@ -54,11 +53,7 @@ const Result = () => {
                 {data.map((num, index) => (
                   <li className="result-item" key={index}>
                     <h2 className="result-item-head">{num.name}</h2>
-                    <img
-                      className="result-item-img"
-                      src={images[index]}
-                      alt="img"
-                    />
+                    <img className="result-item-img" src={num.url} alt="img" />
                     <a
                       className="result-item-link"
                       href={num.link}

@@ -4,6 +4,16 @@ import "./home.css";
 import logo from "../images/Logo_Holcim.png";
 import contentImg from "../images/content-image.jpg";
 import contentMob from "../images/content-mobile.jpg";
+import img1 from "../images/img1.png";
+import img2 from "../images/Image_Neustark.png";
+import img3 from "../images/Image_Shipsta.png";
+import img4 from "../images/Image_SDF.png";
+import img5 from "../images/Image_Leena.png";
+import img6 from "../images/Image_Hive.png";
+import img7 from "../images/Image_Nanolike.png";
+import img8 from "../images/Image_WaitTimeBot.png";
+import img9 from "../images/Image_FLRA.png";
+import img10 from "../images/Image_Struxhub.png";
 const Home = () => {
   const [intp1, setInpt1] = useState({
     name: "Revenue Up",
@@ -142,60 +152,70 @@ const Home = () => {
         check: [1, 3, 3, 8, 1, 5, 1],
         percent: 0.01,
         link: "https://drive.google.com/file/d/16I1vpHFiynBuYBbo2kb1ZpEDCzmZuuy6/view?usp=sharing",
+        url: img1,
       },
       {
         name: "Carbonated recycled CDW",
         check: [5, 3, 2, 10, 5, 2, 3],
         percent: 0.02,
         link: "https://drive.google.com/file/d/1KdRJdGDntgWvgzEMLve9OzRpbMriMSXN/view?usp=sharing",
+        url: img2,
       },
       {
         name: "Value add upselling",
         check: [10, 1, 1, 3, 4, 3, 1],
         percent: 0.03,
         link: "https://drive.google.com/file/d/1Uk212jwC8IooH1NBbT-d4A4WlZzSx-Og/view?usp=sharing",
+        url: img3,
       },
       {
         name: "SDF",
         check: [3, 10, 3, 4, 2, 4, 1],
         percent: 0.04,
         link: "https://drive.google.com/file/d/1YSrrNQgjyJ9_GNIUBAzmFm-QyUsV4qR_/view?usp=sharing",
+        url: img4,
       },
       {
         name: "Employee engagement",
         check: [1, 2, 3, 2, 2, 10, 1],
         percent: 0.05,
         link: "https://drive.google.com/file/d/10UFrvKfOSbTbl_LN8ZcG8DLZUQrn_-GG/view?usp=sharing",
+        url: img5,
       },
       {
         name: "Integrated hauling platform",
         check: [3, 8, 2, 4, 2, 2, 3],
         percent: 0.06,
         link: "https://drive.google.com/file/d/1WcNafFe4j9c6vRO40ZbtKJxO4m8EcsWo/view?usp=sharing",
+        url: img6,
       },
       {
         name: "Cement quality prediction",
         check: [2, 5, 2, 7, 2, 3, 1],
         percent: 0.07,
         link: "https://drive.google.com/file/d/1w695u_iBVdBtvOg2entB5FDIpWIt8Ss-/view?usp=sharing",
+        url: img7,
       },
       {
         name: "Wait Time Bot",
         check: [4, 4, 3, 3, 10, 4, 1],
         percent: 0.08,
         link: "https://drive.google.com/file/d/1JyneEUrk_10JNjIbSFpssEPEJA9cgrTi/view?usp=sharing",
+        url: img8,
       },
       {
         name: "FLRA",
         check: [2, 3, 10, 3, 7, 3, 1],
         percent: 0.09,
         link: "https://drive.google.com/file/d/14HM8yDyvZ-qreRUu03b6KaKoiX5MVvdJ/view?usp=sharing",
+        url: img9,
       },
       {
         name: "Job site management",
         check: [2, 1, 4, 3, 6, 2, 10],
         percent: 0.1,
         link: "https://drive.google.com/file/d/1mpYaWvlFm3h2Lmee2Tv4Bnl0nkisRLfZ/view?usp=sharing",
+        url: img10,
       },
     ];
     const check = [];
@@ -208,6 +228,7 @@ const Home = () => {
         name: item.name,
         result: result + item.percent,
         link: item.link,
+        url: item.url,
       });
     });
     localStorage.setItem(
@@ -231,6 +252,7 @@ const Home = () => {
   };
   return (
     <>
+      <h1 className="error">Please rotate the screen</h1>
       <header className="header">
         <div className="container">
           <div className="header-content">

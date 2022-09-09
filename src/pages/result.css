@@ -84,6 +84,8 @@
 
   .result-item-img {
     margin-bottom: 23px;
+    max-width: 335px;
+    width: 100%;
   }
   .result-item-link {
     font-family: "Arial";
@@ -127,7 +129,7 @@
     color: #ffffff;
   }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-height: 600px) and (min-width: 481px) {
   .header2 {
     padding: 6px 0;
   }
@@ -202,6 +204,8 @@
 
   .result-item-img {
     margin-bottom: 23px;
+    max-width: 293px;
+    max-height: 244px;
   }
   .result-item-link {
     font-family: "Arial";
@@ -245,5 +249,34 @@
     font-size: 13px;
     line-height: 18px;
     color: #ffffff;
+  }
+}
+@media (max-height: 599px) {
+  .header2 {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .result {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .error {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #94c12e;
   }
 }
