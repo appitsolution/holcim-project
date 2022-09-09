@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo2.png";
 import itemImg1 from "../images/item1.jpg";
 import itemImg2 from "../images/item2.png";
@@ -34,7 +35,9 @@ const Result = () => {
       <header className="header2">
         <div className="container">
           <div className="header-content-result">
-            <img className="header-logo-result" src={logo} alt="logo" />
+            <Link to="/">
+              <img className="header-logo-result" src={logo} alt="logo" />
+            </Link>
             <p className="header-title2">Your Digital Strategy Delivered</p>
           </div>
         </div>

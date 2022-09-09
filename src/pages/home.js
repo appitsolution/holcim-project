@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "./home.css";
 import logo from "../images/Logo_Holcim.png";
 import contentImg from "../images/content-image.jpg";
@@ -234,7 +234,9 @@ const Home = () => {
       <header className="header">
         <div className="container">
           <div className="header-content">
-            <img className="header-logo" src={logo} alt="logo" />
+            <Link to="/" className="header-logo-link">
+              <img className="header-logo" src={logo} alt="logo" />
+            </Link>
             <p className="header-title">Digital Impact Now!</p>
           </div>
         </div>
