@@ -138,54 +138,64 @@ const Home = () => {
   const totalResult = () => {
     const mass = [
       {
-        name: "Parsable",
+        name: "Inspection workflow platform",
         check: [1, 3, 3, 8, 1, 5, 1],
         percent: 0.01,
+        link: "https://drive.google.com/file/d/16I1vpHFiynBuYBbo2kb1ZpEDCzmZuuy6/view?usp=sharing",
       },
       {
-        name: "Neustark",
+        name: "Carbonated recycled CDW",
         check: [5, 3, 2, 10, 5, 2, 3],
         percent: 0.02,
+        link: "https://drive.google.com/file/d/1KdRJdGDntgWvgzEMLve9OzRpbMriMSXN/view?usp=sharing",
       },
       {
-        name: "Ice Upsell",
+        name: "Value add upselling",
         check: [10, 1, 1, 3, 4, 3, 1],
         percent: 0.03,
+        link: "https://drive.google.com/file/d/1Uk212jwC8IooH1NBbT-d4A4WlZzSx-Og/view?usp=sharing",
       },
       {
         name: "SDF",
         check: [3, 10, 3, 4, 2, 4, 1],
         percent: 0.04,
+        link: "https://drive.google.com/file/d/1YSrrNQgjyJ9_GNIUBAzmFm-QyUsV4qR_/view?usp=sharing",
       },
       {
-        name: "Leena AI",
+        name: "Employee engagement",
         check: [1, 2, 3, 2, 2, 10, 1],
         percent: 0.05,
+        link: "https://drive.google.com/file/d/10UFrvKfOSbTbl_LN8ZcG8DLZUQrn_-GG/view?usp=sharing",
       },
       {
-        name: "Haulhub",
+        name: "Integrated hauling platform",
         check: [3, 8, 2, 4, 2, 2, 3],
         percent: 0.06,
+        link: "https://drive.google.com/file/d/1WcNafFe4j9c6vRO40ZbtKJxO4m8EcsWo/view?usp=sharing",
       },
       {
-        name: "CemQ",
+        name: "Cement quality prediction",
         check: [2, 5, 2, 7, 2, 3, 1],
         percent: 0.07,
+        link: "https://drive.google.com/file/d/1w695u_iBVdBtvOg2entB5FDIpWIt8Ss-/view?usp=sharing",
       },
       {
         name: "Wait Time Bot",
         check: [4, 4, 3, 3, 10, 4, 1],
         percent: 0.08,
+        link: "https://drive.google.com/file/d/1JyneEUrk_10JNjIbSFpssEPEJA9cgrTi/view?usp=sharing",
       },
       {
         name: "FLRA",
         check: [2, 3, 10, 3, 7, 3, 1],
         percent: 0.09,
+        link: "https://drive.google.com/file/d/14HM8yDyvZ-qreRUu03b6KaKoiX5MVvdJ/view?usp=sharing",
       },
       {
-        name: "Struxhub",
+        name: "Job site management",
         check: [2, 1, 4, 3, 6, 2, 10],
         percent: 0.1,
+        link: "https://drive.google.com/file/d/1mpYaWvlFm3h2Lmee2Tv4Bnl0nkisRLfZ/view?usp=sharing",
       },
     ];
     const check = [];
@@ -194,7 +204,11 @@ const Home = () => {
       item.check.forEach((num, index) => {
         result += num * state[index].value;
       });
-      check.push({ name: item.name, result: result + item.percent });
+      check.push({
+        name: item.name,
+        result: result + item.percent,
+        link: item.link,
+      });
     });
     localStorage.setItem(
       "points",
