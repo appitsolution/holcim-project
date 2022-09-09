@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 
 /* mobile */
+/*  
 @media screen and (max-width: 480px) {
   .header2 {
     background: #ffffff;
@@ -30,7 +31,6 @@
   }
   .result {
     display: block;
-    /* height: 300px; */
     padding: 71px 0;
     padding-bottom: 40px;
     background-image: url("../images/backgroundpage.jpg");
@@ -117,7 +117,6 @@
   .footer-list {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     gap: 10px;
   }
   .footer-item-link {
@@ -129,7 +128,40 @@
     color: #ffffff;
   }
 }
-@media screen and (min-height: 600px) and (min-width: 481px) {
+*/
+@media (max-width: 480px) {
+  .header2 {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .result {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .error {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #94c12e;
+  }
+}
+@media screen and (min-width: 481px) {
+  .error {
+    display: none;
+  }
   .header2 {
     padding: 6px 0;
   }
@@ -206,6 +238,7 @@
     margin-bottom: 23px;
     max-width: 293px;
     max-height: 244px;
+    width: 100%;
   }
   .result-item-link {
     font-family: "Arial";
@@ -249,34 +282,5 @@
     font-size: 13px;
     line-height: 18px;
     color: #ffffff;
-  }
-}
-@media (max-height: 599px) {
-  .header2 {
-    display: none;
-  }
-  .header {
-    display: none;
-  }
-  .result {
-    display: none;
-  }
-  .footer {
-    display: none;
-  }
-  .error {
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Arial";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
-
-    color: #94c12e;
   }
 }

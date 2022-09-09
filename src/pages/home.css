@@ -1,5 +1,5 @@
 /* mobile */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .error {
     display: none;
   }
@@ -122,13 +122,14 @@
     box-sizing: border-box;
   }
   /* линия */
-  .content-logic-input::-webkit-slider-runnable-track,
+
+/* .content-logic-input::-webkit-slider-runnable-track,
   .content-logic-input::-moz-range-track {
     background: #94c12e;
     border-radius: 1.85541px;
-  }
-  /* ползунок */
-  .content-logic-input::-ms-thumb {
+  } */
+/* ползунок */
+/* .content-logic-input::-ms-thumb {
     background: #94c12e !important;
     color: #94c12e !important;
     width: 14px;
@@ -136,8 +137,8 @@
     border-radius: 50%;
     cursor: pointer;
     -webkit-appearance: none;
-  }
-  .content-logic-input::-moz-range-thumb {
+  } */
+/* .content-logic-input::-moz-range-thumb {
     background: #94c12e !important;
     color: #94c12e !important;
     width: 14px;
@@ -145,8 +146,8 @@
     border-radius: 50%;
     cursor: pointer;
     -webkit-appearance: none;
-  }
-  .content-logic-input::-webkit-slider-thumb {
+  } */
+/* .content-logic-input::-webkit-slider-thumb {
     background: #94c12e !important;
     color: #94c12e !important;
     width: 14px;
@@ -185,8 +186,31 @@
     display: flex;
     margin: 0 auto;
   }
+} */
+@media (max-width: 480px) {
+  .header {
+    display: none;
+  }
+  .content {
+    display: none;
+  }
+  .error {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #94c12e;
+  }
 }
-@media screen and (min-height: 600px) and (min-width: 481px) {
+@media screen and (min-width: 481px) {
   .header-content-mobile {
     display: none;
   }
@@ -350,28 +374,5 @@
     background: #1d4370;
     border-radius: 2.76774px;
     cursor: pointer;
-  }
-}
-@media (max-height: 599px) {
-  .header {
-    display: none;
-  }
-  .content {
-    display: none;
-  }
-  .error {
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Arial";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
-
-    color: #94c12e;
   }
 }
