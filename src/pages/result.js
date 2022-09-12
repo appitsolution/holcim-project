@@ -77,7 +77,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/16I1vpHFiynBuYBbo2kb1ZpEDCzmZuuy6/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/parsable.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -87,7 +87,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/1KdRJdGDntgWvgzEMLve9OzRpbMriMSXN/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/neutstark.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -97,7 +97,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/1Uk212jwC8IooH1NBbT-d4A4WlZzSx-Og/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/iceupsell.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -107,7 +107,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/1YSrrNQgjyJ9_GNIUBAzmFm-QyUsV4qR_/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/sdf.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -119,7 +119,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/10UFrvKfOSbTbl_LN8ZcG8DLZUQrn_-GG/view?usp=sharing"
+                    href=" https://holcim.linecore.com.ua/leena.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -171,7 +171,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/1mpYaWvlFm3h2Lmee2Tv4Bnl0nkisRLfZ/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/struxhub.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -181,7 +181,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/1im_8NiupqYKdQGy3uBFVbso_1C6Tuvhq/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/nanolike.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -191,7 +191,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/18L2gXchRb3ffdy1UeLCYJ4R7bmkPEY1e/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/shipsta.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -213,7 +213,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/1WOUx4Mrmyoin6zeNQjV5aDPRCSzOpyWS/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/ibuild.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >

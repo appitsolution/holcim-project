@@ -252,6 +252,9 @@
     gap: 20px;
     justify-content: space-between;
   }
+  .content-logic {
+    width: 55%;
+  }
   .content-logic-title {
     font-family: "Arial";
     font-style: normal;
@@ -374,5 +377,11 @@
     background: #1d4370;
     border-radius: 2.76774px;
     cursor: pointer;
+  }
+  .content-img {
+    width: 45%;
+  }
+  .content-image {
+    width: 100%;
   }
 }

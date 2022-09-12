@@ -154,31 +154,31 @@ const Home = () => {
       {
         name: "Inspection workflow platform",
         check: [1, 3, 3, 8, 1, 5, 1],
-        link: "https://drive.google.com/file/d/16I1vpHFiynBuYBbo2kb1ZpEDCzmZuuy6/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/parsable.pdf",
         url: img1,
       },
       {
         name: "Carbonated recycled CDW",
         check: [5, 3, 2, 10, 5, 2, 3],
-        link: "https://drive.google.com/file/d/1KdRJdGDntgWvgzEMLve9OzRpbMriMSXN/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/neutstark.pdf",
         url: img2,
       },
       {
         name: "Value add upselling",
         check: [10, 1, 1, 4, 4, 3, 1],
-        link: "https://drive.google.com/file/d/1Uk212jwC8IooH1NBbT-d4A4WlZzSx-Og/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/iceupsell.pdf",
         url: img3,
       },
       {
         name: "SDF",
         check: [3, 10, 3, 4, 2, 4, 1],
-        link: "https://drive.google.com/file/d/1YSrrNQgjyJ9_GNIUBAzmFm-QyUsV4qR_/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/sdf.pdf",
         url: img4,
       },
       {
         name: "Employee engagement",
         check: [1, 2, 3, 2, 2, 10, 1],
-        link: "https://drive.google.com/file/d/10UFrvKfOSbTbl_LN8ZcG8DLZUQrn_-GG/view?usp=sharing",
+        link: " https://holcim.linecore.com.ua/leena.pdf",
         url: img5,
       },
       {
@@ -196,7 +196,7 @@ const Home = () => {
       {
         name: "Wait Time Bot",
         check: [4, 4, 3, 3, 10, 4, 1],
-        link: "https://drive.google.com/file/d/1JyneEUrk_10JNjIbSFpssEPEJA9cgrTi/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/waittimebot.pdf",
         url: img8,
       },
       {
@@ -208,19 +208,19 @@ const Home = () => {
       {
         name: "Job site management",
         check: [2, 1, 4, 3, 6, 2, 10],
-        link: "https://drive.google.com/file/d/1mpYaWvlFm3h2Lmee2Tv4Bnl0nkisRLfZ/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/struxhub.pdf",
         url: img10,
       },
       {
         name: "Automated inventory management",
         check: [2, 8, 6, 1, 6, 3, 1],
-        link: "ttps://drive.google.com/file/d/1im_8NiupqYKdQGy3uBFVbso_1C6Tuvhq/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/nanolike.pdf",
         url: img11,
       },
       {
         name: "Logistics eProcurement platform",
         check: [1, 10, 1, 4, 1, 3, 1],
-        link: "https://drive.google.com/file/d/18L2gXchRb3ffdy1UeLCYJ4R7bmkPEY1e/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/shipsta.pdf",
         url: img12,
       },
       {
@@ -232,7 +232,7 @@ const Home = () => {
       {
         name: "Affordable housing e-commerce platform",
         check: [6, 1, 1, 2, 8, 2, 3],
-        link: "https://drive.google.com/file/d/1WOUx4Mrmyoin6zeNQjV5aDPRCSzOpyWS/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/ibuild.pdf",
         url: img14,
       },
     ];
