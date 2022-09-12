@@ -149,7 +149,7 @@ const Result = () => {
                 <li className="footer-item">
                   <a
                     className="footer-item-link"
-                    href="https://drive.google.com/file/d/1JyneEUrk_10JNjIbSFpssEPEJA9cgrTi/view?usp=sharing"
+                    href="https://holcim.linecore.com.ua/waittimebot.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >

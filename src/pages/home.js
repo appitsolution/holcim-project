@@ -16,8 +16,8 @@ import img9 from "../images/Image_FLRA.png";
 import img10 from "../images/Image_Struxhub.png";
 import img11 from "../images/Image_Nanolike.png";
 import img12 from "../images/Image_Shipsta.png";
-import img13 from "../images/Image_Hive.png";
-import img14 from "../images/Image_iBuild.png";
+import img13 from "../images/Image_iBuild.png";
+import img14 from "../images/Image_Hive.png";
 const Home = () => {
   const [intp1, setInpt1] = useState({
     name: "Revenue Up",
