@@ -184,13 +184,13 @@ const Home = () => {
       {
         name: "Integrated hauling platform",
         check: [3, 8, 2, 4, 2, 2, 3],
-        link: "https://drive.google.com/file/d/1WcNafFe4j9c6vRO40ZbtKJxO4m8EcsWo/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/haulhub.pdf",
         url: img6,
       },
       {
         name: "Cement quality prediction",
         check: [2, 5, 2, 7, 2, 3, 1],
-        link: "https://drive.google.com/file/d/1w695u_iBVdBtvOg2entB5FDIpWIt8Ss-/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/cemq.pdf",
         url: img7,
       },
       {
@@ -202,7 +202,7 @@ const Home = () => {
       {
         name: "FLRA",
         check: [2, 3, 10, 3, 7, 3, 1],
-        link: "https://drive.google.com/file/d/14HM8yDyvZ-qreRUu03b6KaKoiX5MVvdJ/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/flra.pdf",
         url: img9,
       },
       {
@@ -226,7 +226,7 @@ const Home = () => {
       {
         name: "Factorization of concrete",
         check: [3, 3, 1, 3, 8, 2, 4],
-        link: "https://drive.google.com/file/d/10-cT804qdmWTPdJEK2ETEOZnZxm4UJVK/view?usp=sharing",
+        link: "https://holcim.linecore.com.ua/hive.pdf",
         url: img13,
       },
       {
